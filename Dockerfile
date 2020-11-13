@@ -6,7 +6,7 @@ SHELL ["/bin/bash", "-c"]
 ENV DEBIAN_FRONTEND=noninteractive
 ENV LANG C.UTF-8
 ENV TERM xterm
-ENV TAG_NAME=master
+ENV TAG_NAME=v5.4.1
 
 USER root
 WORKDIR work
